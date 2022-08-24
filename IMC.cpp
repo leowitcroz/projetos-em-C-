@@ -42,7 +42,7 @@ int IMC (int peso,float altura,float Imc){
     }else if (Imc >= 35 && Imc <= 39)
     {
         cout<<"voce esta com obesidade grau II";
-    }else if (Imc > 40)
+    }else if (Imc >= 40)
     {
         cout<<"voce esta com obesidade grau III";
     }
